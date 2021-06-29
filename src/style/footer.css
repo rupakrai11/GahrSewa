@@ -1,0 +1,63 @@
+.footer-wrapper {
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-family: "Roboto", Arial, sans-serif;
+}
+.footer-contianer {
+  background-color: #254e58;
+}
+@media (max-width: 475px) {
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 80px;
+    overflow: hidden;
+  }
+}
+ul li:nth-child(1) {
+  list-style: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.footer-wrapper .about,
+.client,
+.contact {
+  text-align: justify;
+  font-size: 14px;
+}
+.about h5,
+.client h5,
+.contact h5 {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.about ul {
+  list-style: none;
+}
+ul li {
+  margin-top: 4px;
+}
+.social-links ul {
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+}
+.social-links ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: thin;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.copy {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: thin;
+}

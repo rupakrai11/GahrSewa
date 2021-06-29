@@ -1,0 +1,7 @@
+#navbarSupportedContent .nav-link {
+  color: #fff;
+}
+#navbarSupportedContent .nav-link:hover {
+  color: rgb(17, 197, 221);
+  border-bottom: 1px solid rgb(17, 197, 221);
+}
