@@ -4,8 +4,8 @@ import "../../style/footer.css";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="footer-contianer">
-        <div className=" footer-wrapper">
+      <div className="  footer-contianer">
+        <div className=" container footer-wrapper">
           <div className="about">
             <ul>
               <li>
@@ -23,24 +23,16 @@ const Footer = () => {
             <div className="social-links">
               <ul>
                 <li>
-                  <a href="">
-                    <i className="fa fa-facebook" aria-hidden="true" />
-                  </a>
+                  <i className="fa fa-facebook" aria-hidden="true" />
                 </li>
                 <li>
-                  <a href="">
-                    <i className="fa fa-linkedin" />
-                  </a>
+                  <i className="fa fa-linkedin" />
                 </li>
                 <li>
-                  <a href="">
-                    <i className="fa fa-twitter" />
-                  </a>
+                  <i className="fa fa-twitter" />
                 </li>
                 <li>
-                  <a href="">
-                    <i className="fa fa-globe" />
-                  </a>
+                  <i className="fa fa-globe" />
                 </li>
               </ul>
             </div>
@@ -61,20 +53,14 @@ const Footer = () => {
               <li>
                 <h5>Contact</h5>
               </li>
-              <li>
-                <a href="">Kamal Pokhari,Kathmandu</a>
-              </li>
-              <li>
-                <a href="">gahrsewainfo@gmail.com</a>
-              </li>
-              <li>
-                <a href="">GharSewa.com</a>
-              </li>
+              <li>Kamal Pokhari,Kathmandu</li>
+              <li>gahrsewainfo@gmail.com</li>
+              <li>GharSewa.com</li>
             </ul>
           </div>
         </div>
-        <div className="copy">
-          <p>
+        <div>
+          <p id="copy">
             Copyright &nbsp;
             <i class="fa fa-copyright" aria-hidden="true"></i> &nbsp;2021 all
             rights reserved | Ghar Sewa

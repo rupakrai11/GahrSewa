@@ -5,7 +5,7 @@ const BlogCard = ({ data: { image, c_name, des } }) => {
     <Fragment>
       <div className="col-md-4">
         <article className="article-entry">
-          <a href="">
+          <a href="/">
             <img src={image} alt="" className="blog-img" width="100%" />
           </a>
           <div className="desc">
@@ -17,7 +17,7 @@ const BlogCard = ({ data: { image, c_name, des } }) => {
               <span className="fa fa-star" aria-hidden="true"></span>
             </p>
             <h2>
-              <a href="blog.html">{c_name} </a>
+              <a href="/">{c_name} </a>
             </h2>
 
             <p>{des}</p>

@@ -2,9 +2,15 @@ import React, { Fragment } from "react";
 import "../../style/blog.css";
 import CardData from "./../utill/CardData";
 import BlogCard from "./BlogCard";
+import Footer from "./../common/Footer";
+import Navbar from "./../common/Navbar";
+import Banner from "./../home/Banner";
+
 const Blog = () => {
   return (
     <Fragment>
+      <Navbar />
+      <Banner />
       <div className="container">
         <div className="row">
           {CardData.map((data, id) => {
@@ -12,6 +18,7 @@ const Blog = () => {
           })}
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

@@ -1,24 +1,27 @@
 import React, { Fragment } from "react";
-import Navbar from "./Navbar";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Home from "./../pages/Home";
 import About from "../pages/About";
 import Blog from "./../pages/Blog";
-import Banner from "./../home/Banner";
-import Footer from "./Footer";
+
+import Registration from "../pages/Registration";
+import Login from "../pages/Login";
+import Dashboard from "../admin/Dashboard";
+import PageNotFound from "../pages/PageNotFound";
 
 const Router = () => {
   return (
     <Fragment>
       <BrowserRouter>
-        <Navbar />
-        <Banner />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/blog" component={Blog} />
+          <Route path="/registration" component={Registration} />
+          <Route path="/login" component={Login} />
+          <Route path="/dashboard" component={Dashboard} />
+          <Route component={PageNotFound}></Route>
         </Switch>
-        <Footer />
       </BrowserRouter>
     </Fragment>
   );
