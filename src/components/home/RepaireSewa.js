@@ -11,7 +11,7 @@ const breakPoints = [
 const RepaireSewa = ({ title }) => {
   return (
     <Fragment>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ marginTop: "50px" }}>
         <div class="text-center colorlib-heading">
           <h2>
             <span>{title}</span>

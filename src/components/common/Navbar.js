@@ -1,12 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Logo from "../../images/gharsewa_logo.png";
 import { Link } from "react-router-dom";
 import "../../style/navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light " style={background}>
+    <Fragment>
+      <nav
+        className="navbar navbar-expand-lg navbar-light  "
+        style={background}
+      >
         <Link className="navbar-brand" to="/">
           <img src={Logo} alt="Ghar sewa logo" />
         </Link>
@@ -75,12 +78,11 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-    </div>
+    </Fragment>
   );
 };
 const background = {
   background: "#254e58",
-  padding: "0px 80px",
 };
 
 export default Navbar;

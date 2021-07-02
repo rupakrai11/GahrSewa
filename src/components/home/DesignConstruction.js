@@ -11,7 +11,7 @@ const breakPoints = [
 const DesignConstructionSewa = ({ title }) => {
   return (
     <Fragment>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ marginTop: "50px" }}>
         <div className="row">
           <div
             class="col-md-6 col-md-offset-3 text-center colorlib-heading"

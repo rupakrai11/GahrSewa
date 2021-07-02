@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   font-family: "Roboto", Arial, sans-serif;
-  column-gap: 20px;
+  column-gap: 120px;
 }
 .footer-contianer {
   background-color: #254e58;

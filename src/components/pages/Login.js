@@ -84,7 +84,7 @@ const Login = () => {
               </div>
               <div className="text-center">
                 <span className="txt1">Create an account?</span>
-                <Link to="/regitration" class="txt2 hov1" target="_blank">
+                <Link to="/registration" class="txt2 hov1" target="_blank">
                   Sign up
                 </Link>
               </div>

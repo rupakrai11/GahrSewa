@@ -8,6 +8,7 @@ import Registration from "../pages/Registration";
 import Login from "../pages/Login";
 import Dashboard from "../admin/Dashboard";
 import PageNotFound from "../pages/PageNotFound";
+import New from "./New";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
           <Route path="/registration" component={Registration} />
           <Route path="/login" component={Login} />
           <Route path="/dashboard" component={Dashboard} />
+          <Route path="/new" component={New} />
           <Route component={PageNotFound}></Route>
         </Switch>
       </BrowserRouter>
