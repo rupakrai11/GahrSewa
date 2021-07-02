@@ -4,15 +4,16 @@
   display: grid;
   grid-template-columns: auto auto auto;
   font-family: "Roboto", Arial, sans-serif;
+  column-gap: 20px;
 }
 .footer-contianer {
   background-color: #254e58;
 }
-@media (max-width: 475px) {
+@media (max-width: 575px) {
   .footer-wrapper {
     display: grid;
     grid-template-columns: auto;
-    column-gap: 80px;
+    column-gap: 180px;
     overflow: hidden;
   }
 }

@@ -12,37 +12,43 @@ const HealthBeautySewa = ({ title }) => {
   return (
     <Fragment>
       <div className="container-fluid">
-        <div class="text-center colorlib-heading">
-          <h2>
-            <span>{title}</span>
-          </h2>
-          <div className="cara">
-            <div className="carousel-wrapper"></div>
-            <Carousel
-              breakPoints={breakPoints}
-              enableAutoPlay
-              autoPlaySpeed={50000}
-            >
-              {HealthBeautyData.map((data) => {
-                return (
-                  <div style={{ marginLeft: "10%" }}>
-                    <img
-                      src={data.image}
-                      alt="data"
-                      width="100%"
-                      height="250px"
-                    />
-                    <div className="mt-2 ">
-                      <a href="/new">
-                        {" "}
-                        <h6 id="des">{data.title}</h6>
-                      </a>
-                    </div>
-                  </div>
-                );
-              })}
-            </Carousel>
+        <div className="row">
+          <div
+            class="col-md-6 col-md-offset-3 text-center colorlib-heading"
+            style={{ margin: "auto", overflow: "hidden" }}
+          >
+            <h2>
+              <span>{title}</span>
+            </h2>
           </div>
+        </div>
+
+        <div className="cara">
+          <div className="carousel-wrapper"></div>
+          <Carousel
+            breakPoints={breakPoints}
+            enableAutoPlay
+            autoPlaySpeed={50000}
+          >
+            {HealthBeautyData.map((data) => {
+              return (
+                <div style={{ marginLeft: "10%" }}>
+                  <img
+                    src={data.image}
+                    alt="data"
+                    width="100%"
+                    height="250px"
+                  />
+                  <div className="mt-2 ">
+                    <a href="/new">
+                      {" "}
+                      <h6 id="des">{data.title}</h6>
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+          </Carousel>
         </div>
       </div>
     </Fragment>

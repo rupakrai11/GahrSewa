@@ -12,7 +12,7 @@ const Footer = () => {
                 <h5>About "Ghar Sewa"</h5>
               </li>
               <li>
-                <p>
+                <p style={{ color: "#fff" }}>
                   Full implementation of the latest innovation! "Ghar Sewa" has
                   now made ease to caontact<br></br> the specilized work person
                   according to the requirement
