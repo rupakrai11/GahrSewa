@@ -1,0 +1,99 @@
+.cara {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.seperator {
+  width: 100%;
+}
+
+.controls-wrapper {
+  width: 100%;
+}
+
+.carousel-wrapper {
+  width: 100%;
+}
+.carousel-wrapper.side-arrow {
+  height: 10px;
+  background-color: rgba(255, 136, 0, 0.897);
+  width: 20px;
+  margin-bottom: 20px;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px violet;
+}
+.rec.rec-arrow {
+  border-radius: 20%;
+  margin-top: 100px;
+  background: #254e58;
+
+  color: #fff;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 20%;
+  background-color: maroon;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+
+button.rec-dot {
+  background-color: rgb(235, 16, 16);
+  box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+  display: none;
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(110, 35, 35, 0.5);
+}
+.colorlib-heading {
+  margin-bottom: 5em;
+}
+.colorlib-heading h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#des {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.colorlib-heading h2 span {
+  position: relative;
+}
+.colorlib-heading h2 span:after {
+  position: absolute;
+  top: 49%;
+  left: -80px;
+  bottom: 0;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #ffc300;
+}
+.colorlib-heading h2 span:before {
+  position: absolute;
+  top: 49%;
+  right: -80px;
+  bottom: 0;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #ffc300;
+}
