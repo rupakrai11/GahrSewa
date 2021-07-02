@@ -2,6 +2,8 @@ import React, { Fragment, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import "../../style/carosuel.css";
 import { RepaireData } from "../utill/ServiceData";
+import { Link } from "react-router-dom";
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
@@ -33,10 +35,9 @@ const RepaireSewa = ({ title }) => {
                       height="250px"
                     />
                     <div className="mt-2 ">
-                      <a href="/new">
-                        {" "}
+                      <Link to="/new">
                         <h6 id="des">{data.title}</h6>
-                      </a>
+                      </Link>{" "}
                     </div>
                   </div>
                 );

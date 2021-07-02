@@ -3,7 +3,6 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Home from "./../pages/Home";
 import About from "../pages/About";
 import Blog from "./../pages/Blog";
-
 import Registration from "../pages/Registration";
 import Login from "../pages/Login";
 import Dashboard from "../admin/Dashboard";
