@@ -44,7 +44,8 @@ const LondryData = ({ title }) => {
                   <div className="mt-2 ">
                     <Link to="/new">
                       <h6 id="des">{data.title}</h6>
-                    </Link>{" "}
+                    </Link>
+                    {""}
                   </div>
                 </div>
               );
