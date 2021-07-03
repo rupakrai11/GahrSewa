@@ -2,6 +2,8 @@ import React, { Fragment, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import "../../style/carosuel.css";
 import { HealthBeautyData } from "./../utill/ServiceData";
+import { Link } from "react-router-dom";
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
@@ -11,7 +13,7 @@ const breakPoints = [
 const HealthBeautySewa = ({ title }) => {
   return (
     <Fragment>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ marginTop: "50px" }}>
         <div className="row">
           <div
             class="col-md-6 col-md-offset-3 text-center colorlib-heading"
@@ -40,10 +42,9 @@ const HealthBeautySewa = ({ title }) => {
                     height="250px"
                   />
                   <div className="mt-2 ">
-                    <a href="/new">
-                      {" "}
+                    <Link to="/new">
                       <h6 id="des">{data.title}</h6>
-                    </a>
+                    </Link>{" "}
                   </div>
                 </div>
               );
