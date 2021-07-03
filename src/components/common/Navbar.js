@@ -51,14 +51,14 @@ const Navbar = () => {
                 Our Services
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/new">
+                <Link className="dropdown-item" to="/service">
                   Plumber
                 </Link>
-                <Link className="dropdown-item" to="/new">
+                <Link className="dropdown-item" to="/service">
                   Electrician
                 </Link>
                 <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" to="/new">
+                <Link className="dropdown-item" to="/service">
                   Something else here
                 </Link>
               </div>
