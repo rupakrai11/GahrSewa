@@ -2,8 +2,10 @@ import React, { Fragment } from "react";
 import Logo from "../../images/gharsewa_logo.png";
 import { Link } from "react-router-dom";
 import "../../style/navbar.css";
-
+import "../../components/admin/Dashboard1";
 const Navbar = () => {
+  const name = localStorage.getItem("user");
+
   return (
     <Fragment>
       <nav
@@ -70,10 +72,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/login">
-                Login &nbsp;
-                <i className="fa fa-user-circle" aria-hidden="true"></i>
-              </Link>
+              {name ? (
+                <Link className="nav-link" to="/dashboard1">
+                  Dashboard &nbsp;
+                  <i className="fa fa-user-circle" aria-hidden="true"></i>
+                </Link>
+              ) : (
+                <Link className="nav-link" to="/login">
+                  Login &nbsp;
+                  <i className="fa fa-user-circle" aria-hidden="true"></i>
+                </Link>
+              )}
             </li>
           </ul>
         </div>

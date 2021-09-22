@@ -16,43 +16,6 @@ const Dashboard1 = () => {
             <div className="col-9 data">
               {/* <FilterBregistration /> */}
               <AdminHeader />
-              <div className="data-today mt-5">
-                <div className="col-4">
-                  <div className="total-order">
-                    <div>
-                      <h5>Total Order Today: 300</h5>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-4">
-                  <div className="total-confirmed">
-                    <div>
-                      <h5>
-                        Order Confirmed Services :
-                        <span className="data-nbr">100 </span>{" "}
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-4">
-                  <div className="total-confirmed">
-                    <div>
-                      <h5>
-                        Order Confirmed Services :
-                        <span className="data-nbr">100 </span>{" "}
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="mt-5"
-                style={{ textTransform: "uppercase", fontWeight: "bold" }}
-              >
-                Users
-              </div>
 
               <table class="table mt-2">
                 <thead class="thead-dark">

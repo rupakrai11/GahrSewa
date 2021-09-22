@@ -29,7 +29,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <Link
-              to="/birthregistrationdata"
+              to="/view_users"
               style={{ textDecoration: "none", color: "#fff" }}
             >
               <i class="fa fa-table" aria-hidden="true"></i>&nbsp;View Users
@@ -46,14 +46,14 @@ const Sidebar = () => {
           </Link>
           <li>
             <Link
-              to="/deathregistrationform"
+              to="/userregistrationform"
               style={{
                 textDecoration: "none",
                 color: "#fff",
               }}
             >
-              <i class="fa fa-table" aria-hidden="true"></i>&nbsp;Death
-              Registraton Data
+              <i class="fa fa-table" aria-hidden="true"></i>&nbsp;User
+              Registration
             </Link>
           </li>
 
@@ -76,7 +76,18 @@ const Sidebar = () => {
                 color: "#fff",
               }}
             >
-              <i class="fa fa-table" aria-hidden="true"></i>&nbsp; Manage users
+              <i class="fa fa-table" aria-hidden="true"></i>&nbsp; Manage Orders
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "#fff",
+              }}
+            >
+              <i class="fa fa-table" aria-hidden="true"></i>&nbsp; Back To Site
             </Link>
           </li>
         </ul>

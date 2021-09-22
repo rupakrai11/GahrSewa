@@ -8,7 +8,7 @@ const AdminHeader = () => {
 
   const OnLogout = () => {
     // logout();
-    history.push("/login");
+    history.push("/");
     localStorage.clear();
   };
   return (
