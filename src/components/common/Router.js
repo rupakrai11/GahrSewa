@@ -9,6 +9,7 @@ import Dashboard from "../admin/Dashboard";
 import PageNotFound from "../pages/PageNotFound";
 import New from "./New";
 import Service from "../pages/Service";
+import Dashboard1 from "./../admin/Dashboard1";
 
 const Router = () => {
   return (
@@ -21,6 +22,7 @@ const Router = () => {
           <Route path="/registration" component={Registration} />
           <Route path="/login" component={Login} />
           <Route path="/dashboard" component={Dashboard} />
+          <Route path="/dashboard1" component={Dashboard1} />
           <Route path="/service" component={Service} />
           <Route path="/new" component={New} />
           <Route component={PageNotFound}></Route>

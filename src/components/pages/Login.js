@@ -24,7 +24,7 @@ const Login = () => {
     if (email !== email1) {
       setMessage("Error Occured");
     } else {
-      history.push("/dashboard");
+      history.push("/dashboard1");
       console.log("Login successfully");
     }
   };

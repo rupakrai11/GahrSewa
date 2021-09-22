@@ -10,7 +10,6 @@ const Service = () => {
   return (
     <div>
       <Navbar />
-      <Banner />
       <PlumberData title="Our Plumber" />
       <LondryData title="Londry Data" />
       <HairAndBeutyData title="Health And Beauty Data" />

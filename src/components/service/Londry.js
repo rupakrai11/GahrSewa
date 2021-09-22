@@ -53,7 +53,8 @@ const LondryData = ({ title }) => {
           </Carousel>
         </div>
       </div>
-    </Fragment>
+    </Fragment> 
+    
   );
 };
 
