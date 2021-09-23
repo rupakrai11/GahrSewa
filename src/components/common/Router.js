@@ -12,6 +12,7 @@ import Service from "../pages/Service";
 import Dashboard1 from "./../admin/Dashboard1";
 import View_Users from "../admin/View_Users";
 import Add_Users from "../admin/Add_Users";
+import UserRegistration from "../pages/UserRegistration";
 
 const Router = () => {
   return (
@@ -29,6 +30,7 @@ const Router = () => {
           <Route path="/new" component={New} />
           <Route path="/view_users" component={View_Users} />
           <Route path="/userregistrationform" component={Add_Users} />
+          <Route path="/userregistration" component={UserRegistration} />
 
           <Route component={PageNotFound}></Route>
         </Switch>

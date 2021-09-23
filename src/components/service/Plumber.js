@@ -42,7 +42,7 @@ const PlumberData = ({ title }) => {
                     height="250px"
                   />
                   <div className="mt-2 ">
-                    <Link to="/new">
+                    <Link to="/userregistration">
                       <h6 id="des">{data.title}</h6>
                     </Link>{" "}
                   </div>

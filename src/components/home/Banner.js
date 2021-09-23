@@ -13,6 +13,7 @@ const Banner = () => {
       >
         <ol className="carousel-indicators">
           <li
+            autoplay
             data-target="#carouselExampleIndicators"
             data-slide-to="0"
             className="active"

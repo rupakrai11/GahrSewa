@@ -42,7 +42,7 @@ const HealthBeautySewa = ({ title }) => {
                     height="250px"
                   />
                   <div className="mt-2 ">
-                    <Link to="/new">
+                    <Link to="/service">
                       <h6 id="des">{data.title}</h6>
                     </Link>{" "}
                   </div>
